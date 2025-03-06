@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/IncidentDef[defName = "Infestation"]/baseChance</xpath>
+		<value>
+			<baseChance>0</baseChance>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/IncidentDef[defName = "Infestation"]/minRefireDays</xpath>
+		<value>
+			<minRefireDays>100000</minRefireDays>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/IncidentDef[defName = "Infestation"]/minThreatPoints</xpath>
+		<value>
+			<minThreatPoints>100000</minThreatPoints>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationInsert">
+		<xpath>*/IncidentDef[defName = "Infestation"]/minThreatPoints</xpath>
+		<value>
+			<earliestDay>100000</earliestDay>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/IncidentDef[defName = "DeepDrillInfestation"]/baseChance</xpath>
+		<value>
+			<baseChance>0</baseChance>
+		</value>
+	</Operation>
+		
+	<Operation Class="PatchOperationInsert">
+		<xpath>*/IncidentDef[defName = "DeepDrillInfestation"]/baseChance</xpath>
+		<value>
+			<minRefireDays>100000</minRefireDays>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationInsert">
+		<xpath>*/IncidentDef[defName = "DeepDrillInfestation"]/baseChance</xpath>
+		<value>
+			<minThreatPoints>100000</minThreatPoints>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationInsert">
+		<xpath>*/IncidentDef[defName = "DeepDrillInfestation"]/baseChance</xpath>
+		<value>
+			<earliestDay>100000</earliestDay>
+		</value>
+	</Operation>
+	
+	<!--https://steamcommunity.com/sharedfiles/filedetails/?id=2149755445 Vanilla Factions Expanded - Insectoids-->
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Factions Expanded - Insectoids</li>
+        </mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>*/IncidentDef[defName = "VFEI_GiantInfestation"]/baseChance</xpath>
+					<value>
+						<baseChance>0</baseChance>
+					</value>
+				</li>
+					
+				<li Class="PatchOperationReplace">
+					<xpath>*/IncidentDef[defName = "VFEI_GiantInfestation"]/minRefireDays</xpath>
+					<value>
+						<minRefireDays>100000</minRefireDays>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>*/IncidentDef[defName = "VFEI_GiantInfestation"]/minThreatPoints</xpath>
+					<value>
+						<minThreatPoints>100000</minThreatPoints>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>*/IncidentDef[defName = "VFEI_GiantInfestation"]/earliestDay</xpath>
+					<value>
+						<earliestDay>100000</earliestDay>
+					</value>
+				</li>
+			</operations>
+		</match>
+		
+
+    </Operation>
+</Patch>
