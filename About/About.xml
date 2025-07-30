@@ -2,15 +2,12 @@
 <ModMetaData>
 	<name>No Infestation</name>
 	<author>Dragonissa, Wyatt Mingji Lim aka WalkingProblem</author>
-	<url>http://walkingproblem.com</url>
+	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2890080496</url>
 	<supportedVersions>
-	<li>1.0</li>
-	<li>1.1</li>
-	<li>1.2</li>
-	<li>1.3</li>
-	<li>1.4</li>
-	<li>1.5</li>
-	<li>1.6</li>
+		<li>1.3</li>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<packageId>walkingproblem.noinfestation</packageId>
 	<description>Remove infestation event from your game.
@@ -18,11 +15,11 @@
 Unless you spawn them with dev mode... 
 ... the infestation event should never ever appear ever forever ever again ever like never before really no joke.
 	</description>
-  <loadAfter>
-    <li>Ludeon.RimWorld</li>
-	<li>Ludeon.RimWorld.Biotech</li>
-    <li>OskarPotocki.VFE.Insectoid</li>
-	<li>OskarPotocki.VFE.Insectoid2</li>
-	<li>DankPyon.Medieval.Overhaul</li>
-  </loadAfter>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>OskarPotocki.VFE.Insectoid</li>
+		<li>OskarPotocki.VFE.Insectoid2</li>
+		<li>DankPyon.Medieval.Overhaul</li>
+	</loadAfter>
 </ModMetaData>
