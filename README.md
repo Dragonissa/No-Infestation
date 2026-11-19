@@ -29,3 +29,7 @@ Yes, those events can be turned off in the scenario editor, but ONLY before crea
 
 Original by [WalkingProblem](https://steamcommunity.com/id/mingji)
 [Mod link](https://steamcommunity.com/sharedfiles/filedetails/?id=1279817576)
+
+<p align="center">
+  <img src="About/preview.png" width="800">
+</p>
